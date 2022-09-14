@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-shirt World - White t-shirt</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+      <nav class="navbar is-white has-shadow px-4 py-3" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#">
+            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+          </a>
+      
+          <a role="button" class="navbar-burger" id="menu-burger" aria-label="menu" data-target="navbarMenu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <!----navbar menu---->
+        <div id="nav-menu" class="navbar-menu">      
+          <div class="navbar-end">
+            <a class="navbar-item">
+                My account
+              </a>
+        
+              <a class="navbar-item">
+                Shopping chart (0)
+              </a>
+          </div>
+        </div>
+      </nav>
+      <!----breadcrumbs----->
+      <div class="section pt-4 pb-2">
+        <nav class="breadcrumb has-succeeds-separator is-grey" aria-label="breadcrumbs">
+            <ul class="container">
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Clothing</a></li>
+                <li><a href="#">T-shirts</a></li>
+                <li class="is-active"><a href="#" aria-current="page">White t-shirt</a></li>
+            </ul>
+        </nav>       
+      </div>
+      <!-----product info------>
+      <section class="section">
+        <div class="container">
+            <div class="columns is-multiline is-vcentered">
+                <div class="column is-3-desktop is-6-tablet">
+                    <h1 class="is-size-1">
+                        White t-shirt
+                    </h1>
+
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, vitae.
+                    </p>
+                </div>
+                <div class="column is-5-desktop is-6-tablet has-text-centered">
+                    <img src="images/fashion-4953149_960_720.jpg" alt="White t-shirt" width="300">
+                </div>
+                <div class="column is-4-desktop is-12-tablet">
+                    <div class="is-size-3">15,99 $</div>
+                    <p class="py-3">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, vitae.
+                    </p>
+                    <form>
+                        <div class="filed mt-5 my-4">
+                            <div class="select is-dark">
+                                <select name="size" id="size">
+                                    <option value="s">S - Small</option>
+                                    <option value="m">M - Medium</option>
+                                    <option value="l">L - Large</option>
+                                    <option value="xl">XL - Extra large</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                    <button class="button is-medium is-info">Add to cart</button>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+            <div class="columns is-8 is-variable">
+                <div class="column is-7">
+                    <div class="tabs is-boxed">
+                        <ul>
+                            <li class="is-active" data-tabtarget="product-description">
+                                <a>Product description</a>
+                            </li>
+                            <li data-tabtarget="delivery-info">
+                                <a>Delivery information</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="px-2" id="tab-content">
+                        <div id="product-description">
+                            <h3 class="is-size-3">Product description</h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse atque obcaecati soluta iste, suscipit itaque maiores fugit expedita nihil rem. Dolorum nisi quis error expedita libero obcaecati quaerat omnis neque.
+                            </p>
+                        </div>
+                        <div id="delivery-info" class="is-hidden">
+                            <h3 class="is-size-3">Delivery information</h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse atque obcaecati soluta iste, suscipit itaque maiores fugit expedita nihil rem. Dolorum nisi quis error expedita libero obcaecati quaerat omnis neque.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-5">
+                    <article class="message">
+                        <div class="message-header has-background-info">
+                          <p>Sign up to the club</p>
+                        </div>
+                        <div class="message-body">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+                        </div>
+                        <div class="has-text-centered">
+                            <button id="sign-up" class="button is-info mt-4 mb-5">Sign up</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-----releted products------>
+      <section class="section">
+        <div class="container">
+            <h2 class="is-size-3 title has-text-centered">Related products</h2>
+            <div class="columns my-4 is-centered is-4 is-variable">
+                <div class="column is-4-tablet is-3-desktop">
+                    <div class="card">
+                        <div class="card-image has-text-centered px-5">
+                            <img src="images/fashion-5328924_960_720.jpg" alt="Black top">
+                        </div>
+                        <div class="card-content">
+                            <p>16,99 $</p>
+                            <p class="title">Black top</p>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <a href="" class="has-text-grey">View</a>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column is-4-tablet is-3-desktop">
+                    <div class="card">
+                        <div class="card-image has-text-centered px-5">
+                            <img src="images/yellow-5263498_960_720.jpg" alt="Yellow T-shirt">
+                        </div>
+                        <div class="card-content">
+                            <p>18,99 $</p>
+                            <p class="title">Yellow T-shirt</p>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <a href="" class="has-text-grey">View</a>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column is-4-tablet is-3-desktop">
+                    <div class="card">
+                        <div class="card-image has-text-centered px-5">
+                            <img src="images/fashion-4785546_960_720.jpg" alt="White top">
+                        </div>
+                        <div class="card-content">
+                            <p>16,99 $</p>
+                            <p class="title">White top</p>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <a href="" class="has-text-grey">View</a>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-------modal------->
+      <div class="modal" id="sign-up-modal">
+        <div class="modal-background"></div>
+        <div class="modal-content has-background-white p-5">
+            <h3 class="is size-3 title mb-6">Join the Club</h3>
+            <form>
+                <div class="field">
+                    <label for="name" class="label">Name</label>
+                    <div class="control">
+                        <input type="text" class="input" id="name">
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="name" class="label">E-mail</label>
+                    <div class="control">
+                        <input type="text" class="input" id="name">
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <label class="checkbox is-medium">
+                            <input type="checkbox" class="is-medium">
+                            I'm agrre to the <a href="#" class="has-text-grey">terms and conditions</a> 
+                        </label>
+                    </div>
+                </div>
+                <div class="my-6 has-text-centered">
+                    <button class="button is-info">Sign me up</button>
+                </div>
+            </form>
+        </div>
+      </div>
+      <!-----footer----->
+      <footer class="footer">
+        <div class="content has-text-centered my-5">
+            <p>
+                Copyright 2022 T-shirt World
+            </p>
+        </div>
+      </footer>
+      <script src="index.js"></script>
+</body>
+</html>
